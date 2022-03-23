@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-import './HeaderButtons.css'
+import "./HeaderButtons.css";
 
 const SearchButton = ({ children }) => {
-    return ( 
-        <>
-            <button className='button'>{children}</button>
-        </>
-     );
-}
- 
+  return (
+    <>
+      <button className="button">{children}</button>
+    </>
+  );
+};
+
 export default SearchButton;

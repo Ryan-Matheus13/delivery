@@ -21,14 +21,12 @@ const Category = ({ itens }) => {
 
   return (
     <>
-      
-        {categorys.map((category) => (
-            <div className="category-container">
-                <h1>{category.title}</h1>
-                <Item category={category} />
-            </div>
-        ))}
-      
+      {categorys.map((category) => (
+        <div className="category-container">
+          <h1>{category.title}</h1>
+          <Item category={category} />
+        </div>
+      ))}
     </>
   );
 };
