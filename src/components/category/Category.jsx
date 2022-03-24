@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Category.css";
 
-import Item from "./Item";
+import Item from "../item/Item";
 
 const Category = ({ itens }) => {
   const categorys = [];

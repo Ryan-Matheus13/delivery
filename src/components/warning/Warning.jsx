@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Warning.css";
 
-const Warning = ({ children }) => {
+const Warning = () => {
   return (
     <>
       <div className="warning-container">

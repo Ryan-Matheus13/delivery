@@ -29,7 +29,7 @@
         border-radius: 1rem;
         border: #ffffff solid 1px;
         filter: drop-shadow(0 0.2rem 0.4rem hsla(0, 0%, 0%, 0.150));
-        background-image: url('../images/item.jpg');
+        background-image: url('../../images/item.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

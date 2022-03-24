@@ -4,9 +4,9 @@ import "./Header.css";
 
 import { HiMenuAlt2, HiSearch } from "react-icons/hi";
 import { MdLocationPin } from "react-icons/md";
-import MenuButton from "../components/MenuButton";
-import SearchButton from "../components/SearchButton";
-import Logo from "../components/Logo";
+import MenuButton from "../components/header-buttons/MenuButton";
+import SearchButton from "../components/header-buttons/SearchButton";
+import Logo from "../components/logo/Logo";
 
 const Header = () => {
   return (

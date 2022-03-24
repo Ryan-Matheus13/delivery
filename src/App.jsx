@@ -2,9 +2,9 @@ import React from "react";
 import "./App.css";
 
 import Header from "./sections/Header";
-import SliderCategory from "./components/SliderCategory";
-import Warning from "./components/Warning";
-import Banner from "./components/Banner";
+import SliderCategory from "./components/category/SliderCategory";
+import Warning from "./components/warning/Warning";
+import Banner from "./components/banner/Banner";
 import Categorys from "./sections/Categorys";
 
 function App() {

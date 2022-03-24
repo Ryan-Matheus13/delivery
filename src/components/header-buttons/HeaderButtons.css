@@ -12,4 +12,14 @@
         background-color: transparent;
         border: none;
     }
+
+    .item-menu {
+        width: 50vw;
+        min-height: 20px;
+        background-color: brown;
+    }
+
+    .drawer-menu {
+        display: flex;
+    }
 }

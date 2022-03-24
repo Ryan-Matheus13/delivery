@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import Category from "../components/Category";
+import Category from "../components/category/Category";
 
 const Categorys = () => {
   const [itens, setItens] = useState([
