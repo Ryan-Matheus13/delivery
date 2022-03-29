@@ -1,0 +1,10 @@
+.menu-container {
+    background-color: #f3f3f3;
+    height: 100%;
+    width: 50vw;
+    padding: 10px;
+}
+
+.item-toggle {
+    background-color: rgb(31, 31, 31);
+}

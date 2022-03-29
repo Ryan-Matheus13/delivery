@@ -1,8 +1,7 @@
-import { Drawer } from "@mui/material";
-import React from "react";
-import { useState } from "react";
-
+import React, { useState } from "react";
 import "./HeaderButtons.css";
+
+import MenuDrawer from "../MenuDrawer/MenuDrawer";
 
 const MenuButton = ({ children }) => {
 
@@ -11,9 +10,8 @@ const MenuButton = ({ children }) => {
   return (
     <>
       <button onClick={() => {setOpen(true)}} className="button">{children}</button>
-      <Drawer onClose={() => {setOpen(false)}} open={open} >
-        teste
-      </Drawer>
+      <MenuDrawer onClose={() => {setOpen(false)}} open={open}></MenuDrawer>
+      
     </>
   );
 };

@@ -1,0 +1,27 @@
+.item-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.item-menu-container i {
+    width: 20%;
+    font-size: 20px;
+    color: #565656;
+    text-align: left;
+}
+
+.item-menu-container span {
+    font-family: 'Poppins', sans-serif;
+    width: 60%;
+    padding-left: 0.7rem;
+    color: #565656;
+    font-size: 1.3rem;
+    text-align: left;
+}
