@@ -8,7 +8,6 @@ const Item = ({ category }) => {
   Object.keys(category).forEach((item) => {
     arrayItem.push(category[item]);
   });
-  console.log(arrayItem.slice(1, arrayItem.length));
 
   return (
     <>

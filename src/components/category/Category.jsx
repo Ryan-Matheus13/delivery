@@ -17,7 +17,6 @@ const Category = ({ itens }) => {
       arrayItem.push(category[item]);
     })
   );
-  console.log(categorys);
 
   return (
     <>
