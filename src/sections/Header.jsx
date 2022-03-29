@@ -1,23 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./Header.css";
 
-import { HiMenuAlt2, HiSearch } from "react-icons/hi";
+import { HiMenuAlt2 } from "react-icons/hi";
+import { FiSearch } from "react-icons/fi";
 import { MdLocationPin } from "react-icons/md";
 import MenuButton from "../components/header-buttons/MenuButton";
 import SearchButton from "../components/header-buttons/SearchButton";
 import Logo from "../components/logo/Logo";
 
 const Header = () => {
+  const [style, setStyle] = useState()
+  const [hide, setHide] = useState({})
+
+  const handleSearch = () => {
+    setStyle({display: 'flex'})
+    setHide({visibility: 'hidden'})
+    document.documentElement.style.overflow = 'hidden';
+    document.body.scroll = 'no'
+  }
   return (
     <>
       <div className="container">
         <div className="header-buttons">
-          <MenuButton>
+          <MenuButton hide={hide} style={style}>
             <HiMenuAlt2 />
           </MenuButton>
-          <SearchButton>
-            <HiSearch />
+          <SearchButton hide={hide} style={style} onClick={handleSearch}>
+            <FiSearch />
           </SearchButton>
         </div>
         <div className="header">

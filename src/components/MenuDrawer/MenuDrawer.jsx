@@ -7,16 +7,22 @@ import {
   Box
 } from "@mui/material";
 import { AiOutlineUser } from "react-icons/ai";
-import { MdOutlineShoppingCart } from "react-icons/md";
+import { MdOutlineShoppingCart } from "react-icons/md"; 
 import { FiPackage } from "react-icons/fi";
 import { IoExitOutline } from "react-icons/io5";
 import ItemMenu from "./ItemMenu";
+import PerfilImage from "./PerfilImage";
+import UserName from "./UserName";
 
 const MenuDrawer = ({ onClose, open }) => {
 
   return (
     <>
       <Drawer onClose={onClose} open={open}>
+        <Box className="perfil-container">
+          <PerfilImage></PerfilImage>
+          <UserName></UserName>
+        </Box>
         <Box
           className='menu-container'
         >

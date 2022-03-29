@@ -1,10 +1,18 @@
 .menu-container {
     background-color: #f3f3f3;
     height: 100%;
-    width: 50vw;
+    width: 65vw;
     padding: 10px;
 }
 
 .item-toggle {
     background-color: rgb(31, 31, 31);
+}
+
+.perfil-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 5px;
+    background-color: #f3f3f3
 }

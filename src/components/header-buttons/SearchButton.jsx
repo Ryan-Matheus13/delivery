@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./HeaderButtons.css";
+import SearchModal from "./SearchModal";
 
-const SearchButton = ({ children }) => {
+const SearchButton = ({ children, onClick, style, hide }) => {
+  
   return (
     <>
-      <button className="button">{children}</button>
+      <button onClick={onClick} style={hide} className="button">{children}</button>
+      <SearchModal style={style}></SearchModal>
     </>
   );
 };

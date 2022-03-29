@@ -1,0 +1,22 @@
+.perfil-image-container {
+    position: relative;
+    height: 85px;
+    width: 80px;
+}
+
+.perfil-image {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.change-photo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    border-radius: 100%;
+}
