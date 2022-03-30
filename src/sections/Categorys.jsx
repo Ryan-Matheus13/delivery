@@ -13,7 +13,7 @@ const Categorys = () => {
           "Pão, Blend 100g, 1 fatia de queijo cheedar, cebola, picles com ketchup e mostarda.",
         price: 10.5,
       },
-      Quarteirão: {
+      'Quarteirão': {
         id: "1",
         title: "Quarteirão",
         description:
@@ -54,21 +54,21 @@ const Categorys = () => {
     },
     {
       title: "Sobremesa",
-      Sorvete: {
+      'Sorvete': {
         id: "1",
         title: "Sorvete",
         description:
           "Pão, Blend 100g, 1 fatia de queijo cheedar, cebola, picles com ketchup e mostarda.",
         price: 10.5,
       },
-      Pudim: {
+      'Pudim': {
         id: "1",
         title: "Pudim",
         description:
           "Pão, Blend 100g, 1 fatia de queijo cheedar, cebola, picles com ketchup e mostarda.",
         price: 10.5,
       },
-      Petigatot: {
+      'Petigatot': {
         id: "1",
         title: "Petigatot",
         description:
