@@ -2,10 +2,10 @@ import React from "react";
 
 import "./CategoryButton.css";
 
-const CategoryButton = ({ children }) => {
+const CategoryButton = ({ children, onClick }) => {
   return (
     <>
-      <button className="category-button">{children}</button>
+      <button onClick={onClick} className="category-button">{children}</button>
     </>
   );
 };

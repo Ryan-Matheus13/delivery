@@ -1,19 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./SliderCategory.css";
 
 import CategoryButton from "./CategoryButton";
 
-const SliderCategory = () => {
+const SliderCategory = ({categorys}) => {
+
+  const[categoryLink, setCategoryLink] = useState('')
+
   return (
     <>
       <div className="slider-container">
-        <CategoryButton>Promoções</CategoryButton>
-        <CategoryButton>Burguer</CategoryButton>
-        <CategoryButton>Vegetarianos</CategoryButton>
-        <CategoryButton>Porções</CategoryButton>
-        <CategoryButton>Sobremesas</CategoryButton>
-        <CategoryButton>Bebidas</CategoryButton>
+        {categorys.map((category) => (
+          <CategoryButton onClick={() => setCategoryLink(category.title)}><a href={`#${categoryLink}`}>{category.title}</a></CategoryButton>
+        ))}
       </div>
     </>
   );
