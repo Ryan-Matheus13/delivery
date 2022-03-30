@@ -3,6 +3,7 @@ import React from "react";
 import "./Category.css";
 
 import Item from "../item/Item";
+import SliderCategory from "./SliderCategory";
 
 const Category = ({ itens }) => {
   const categorys = [];
@@ -20,8 +21,9 @@ const Category = ({ itens }) => {
 
   return (
     <>
+      <SliderCategory categorys={categorys}></SliderCategory>
       {categorys.map((category) => (
-        <div className="category-container">
+        <div id={category.title} className="category-container">
           <h1>{category.title}</h1>
           <Item category={category} />
         </div>
