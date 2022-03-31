@@ -9,11 +9,7 @@ const Categorys = () => {
     fetch('http://34.207.93.235:8877/produtos', {
       method: 'GET',
       headers: {
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': 'http://localhost:3000',
-        'Access-Control-Allow-Methods': 'GET',
-        'Access-Control-Allow-Headers': '*',
-        'Access-Control-Max-Age': 86400
+        'Content-Type': 'application/json'
       },
     })
       .then((resp) => resp.json())
