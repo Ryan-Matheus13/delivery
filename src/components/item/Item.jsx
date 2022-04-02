@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./Item.css";
+import ItemImage from "./ItemImage";
 
 const Item = ({ category }) => {
   const arrayItem = [];
@@ -13,7 +14,7 @@ const Item = ({ category }) => {
     <>
       {arrayItem.slice(1, arrayItem.length).map((item) => (
         <div className="item-container">
-          <div className="item-image"></div>
+          <ItemImage></ItemImage>
           <div className="item-content-container">
             <div className="item-title">{item.title}</div>
             <div className="item-description">{item.description}</div>

@@ -5,9 +5,9 @@ import "./Header.css";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { FiSearch } from "react-icons/fi";
 import { MdLocationPin } from "react-icons/md";
-import MenuButton from "../components/header-buttons/MenuButton";
-import SearchButton from "../components/header-buttons/SearchButton";
-import Logo from "../components/logo/Logo";
+import MenuButton from "../buttons/MenuButton";
+import SearchButton from "../buttons/SearchButton";
+import Logo from "../logo/Logo";
 
 const Header = () => {
   const [style, setStyle] = useState()

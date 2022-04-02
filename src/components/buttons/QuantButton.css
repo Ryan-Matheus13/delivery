@@ -1,0 +1,34 @@
+.button-quant-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 8.85rem;
+}
+
+.add, .sub {
+    display: flex;
+    color: white;
+    background-color: #FFBC6C;
+    border: none;
+    font-weight: bold;
+    min-height: 2.5rem;
+    min-width: 2.5rem;
+    border-radius: 0.4rem;
+}
+
+.add span, .sub span {
+    width: 100%;
+    font-family: 'dm sans';
+    font-size: 2rem;
+}
+
+.sub:disabled {
+    background-color: #fad09d;
+}
+
+.quant-value {
+    font-family: 'dm sans';
+    font-size: 2rem;
+    padding: 0 1rem;
+    text-align: center;
+}

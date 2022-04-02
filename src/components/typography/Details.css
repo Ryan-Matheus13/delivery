@@ -1,0 +1,21 @@
+.details-container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.details-title {
+    font-family: 'Dm sans', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    width: 100%;
+    padding-top: 12rem;
+}
+
+.details-description {
+    font-family: 'poppins', sans-serif;
+    font-size: 1.4rem;
+    width: 100%;
+    padding-bottom: 2rem;
+}

@@ -1,0 +1,30 @@
+.observation-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.observation-title {
+    font-family: 'Dm sans', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.observation-input {
+    width: 100%;
+    min-height: 15rem;
+    height: auto;
+    resize: none;
+    margin-bottom: 5em;
+    border: 1px solid #dcdcdc;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-family: 'poppins', sans-serif;
+}
+
+.observation-input::placeholder {
+    color: #dcdcdc;
+    font-style: italic;
+}

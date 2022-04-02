@@ -8,7 +8,7 @@
         min-height: 24rem;
         color: #fff;
     
-        background-image: url('../images/background.png');
+        background-image: url('../../images/background.png');
         background-size: contain;
         background-position: top left;
         background-repeat: no-repeat;
