@@ -7,13 +7,13 @@ import ItemImage from "../components/item/ItemImage";
 import ProductTitle from "../components/typography/ProductTitle";
 import QuantButton from "../components/buttons/QuantButton";
 import Observations from "../components/inputs/Observations";
-import AddCartButton from "../components/buttons/AddCartButton";
+import AddCartButton from "../components/buttons/FixedButton";
 import BackButton from "../components/buttons/BackButton";
 
 const Product = () => {
   const imageCss = {
-    height: "30rem",
-    width: "30rem",
+    height: "25rem",
+    width: "25rem",
     borderRadius: "100%",
     marginBottom: "-10rem"
   };
@@ -33,7 +33,7 @@ const Product = () => {
                 <span className="price">R$25,50</span>
             </div>
             <Observations></Observations>
-            <AddCartButton></AddCartButton>
+            <AddCartButton>Adicionar ao Carrinho</AddCartButton>
         </div>
       </div>
     </>

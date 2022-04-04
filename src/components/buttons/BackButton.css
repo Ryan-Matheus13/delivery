@@ -1,11 +1,14 @@
-.back-button {
-    display: flex;
-    background-color: transparent;
-    width: 4.5rem;
-    height: 4.5rem;
-    font-size: 3.8rem;
-    border: none;
-    color: #565656;
-    justify-content: flex-start;
-    align-items: center;
+@media(max-width: 420px) {
+    .back-button {
+        display: flex;
+        background-color: transparent;
+        width: 4.5rem;
+        height: 4.5rem;
+        font-size: 3.8rem;
+        border: none;
+        color: #565656;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
 }
